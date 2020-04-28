@@ -98,6 +98,7 @@ header h3 {
     
 }
 
+
 /* SECTION CONTEÚDO */
 
 section#conteudo {
@@ -121,7 +122,76 @@ section#conteudo h3 {
     font-weight: 900;
 }
 
+/* BOTÕES */
+div#botoes {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+div#botoes img{
+    height: 100px;
+    color: var(--azul-escuro);
+}
+
+div#botoes spam {
+    font-size: 2em;
+}
+
+div#botoes div {
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+div#cartoes {
+    width: 100%;
+    text-align: center;
+}
 
 
+/* CARTÕES */
+div#fisico {
+    background-image: url("/img/cartao_fisico.png");
+}
 
+div#visual {
+    background-image: url("/img/cartao_visual.png");
+}
 
+div#mudez {
+    background-image: url("/img/cartao_mudez.png");
+}
+
+div#auditivo {
+    background-image: url("/img/cartao_auditivo.png");
+}
+
+div.cartao_imagem {
+    width: 280px;
+    height: 460px;
+    border-radius: 25px;
+}
+
+div#cartoes .cartao {
+    display: inline-block;
+    margin: 10px;
+}
+
+div.cartao_box {
+    background-color: var(--roxo);
+    opacity: 50%;
+    width: 280px;
+    height: 80px;
+    position: relative;
+    top: 380px;
+    border-radius: 0 0 25px 25px;
+}
+
+div.cartao_titulo {
+    color: #ffffff;
+    position: relative;
+    top: 310px;
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+}
