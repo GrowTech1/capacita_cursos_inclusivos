@@ -182,19 +182,19 @@ div#cartoes {
 
 /* CARTÕES */
 div#fisico {
-    background-image: url("/img/cartao_fisico.png");
+    background-image: url("../img/cartao_fisico.png");
 }
 
 div#visual {
-    background-image: url("/img/cartao_visual.png");
+    background-image: url("../img/cartao_visual.png");
 }
 
 div#mudez {
-    background-image: url("/img/cartao_mudez.png");
+    background-image: url("../img/cartao_mudez.png");
 }
 
 div#auditivo {
-    background-image: url("/img/cartao_auditivo.png");
+    background-image: url("../img/cartao_auditivo.png");
 }
 
 div#cartoes .cartao {
