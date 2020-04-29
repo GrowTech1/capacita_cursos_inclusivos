@@ -15,30 +15,65 @@
     <header>
         <div id="topo">
             <div id="box_menu">
+                <a href="#" data-target="menu" class="sidenav-trigger">
+                    <i class="medium material-icons" id="icone_esquerda">menu</i>
+                </a>    
             </div> <!-- /div#menu -->
-
             <div id="box_icone">
+                <i class="medium material-icons" id="icone_direita">home</i>               
             </div> <!-- /div#icone -->
-
             <h1>CAPACITA</h1>
-            <h2>Cursos Inclusivos</h2>
-
-            <i class="medium material-icons" id="icone_esquerda">menu</i>
-            <i class="medium material-icons" id="icone_direita">home</i>
+            <h2>Cursos Inclusivos</h2> 
         </div> <!-- /div#topo -->
 
         <div id="box_titulo">
+            <h3>Portal dos Cursos</h3>
         </div> <!-- /div#titulo -->
 
-        <h3>Portal dos Cursos</h3>
+        <ul id="menu" class="sidenav">
+            <li>
+                <div id="faixa_menu">
+                    <div>Menu</div>
+                    <div><a class="sidenav-close"><i class="material-icons">close</i></a></div>
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="#"><img src="img/btn_inicio.svg" alt="Botão de Acesso a Página Inicial"> <spam>Início</spam></a> 
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="#"><img src="img/btn_acesso.svg" alt="Botão de Acesso"> <spam>Acesso</spam></a> 
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="#"><img src="img/btn_cursos.svg" alt="Botão de aos Cursos"> <spam>Cursos</spam></a> 
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="#"><img src="img/btn_forum.svg" alt="Botão de ao Fórum"> <spam>Fórum</spam></a> 
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="#"><img src="img/btn_noticias.svg" alt="Botão de as Notícias"> <spam>Notícias</spam></a> 
+                </div>
+            </li>
 
+        </ul>
+        
     </header><!-- /header#id -->
 
     <section id="conteudo">
         <p><img src="img/banner_1.png" alt="Cursos Grátis" class="container"></p>
         <h3>CONFIRA OS CURSOS EM DESTAQUE</h3>
-        <p>Nossa missão é trazer para você os melhores cursos profissionalizantes. Através de uma rede de instituições
-            de ensino, sua Capacitação estará garantida para o mercado de trabalho. </p>
+        <p>
+            Nossa missão é trazer para você os melhores cursos profissionalizantes. Através de uma rede de instituições
+            de ensino, sua Capacitação estará garantida para o mercado de trabalho. 
+        </p>
         <div id="botoes" class="container">
             <div id="acesso">
                 <img src="img/btn_acesso.svg" alt="Botão de acesso"><br>
@@ -61,41 +96,36 @@
         <div id="cartoes">
             <div class="cartao">
                 <div class="cartao_imagem" id="fisico">
-                    <div class="cartao_box"></div>
-                    <div class="cartao_titulo">Físico</div>
-                </div>             
-            </div>
+                    <div class="cartao_box">Físico</div>
+                </div> <!-- /div.cartao_imagem -->            
+            </div>  <!-- /div.cartao -->
             <div class="cartao">
                 <div class="cartao_imagem" id="visual">
-                    <div class="cartao_box"></div>
-                    <div class="cartao_titulo">Visual</div>
-                </div>             
-            </div>
+                    <div class="cartao_box">Visual</div>
+                </div> <!-- /div.cartao_imagem -->          
+            </div> <!-- /div.cartao -->
             <div class="cartao">
                 <div class="cartao_imagem" id="mudez">
-                    <div class="cartao_box"></div>
-                    <div class="cartao_titulo">Mudez</div>
-                </div>             
-            </div>
+                    <div class="cartao_box">Mudez</div>
+                </div> <!-- /div.cartao_imagem -->           
+            </div> <!-- /div.cartao -->
             <div class="cartao">
                 <div class="cartao_imagem" id="auditivo">
-                    <div class="cartao_box"></div>
-                    <div class="cartao_titulo">Auditivo</div>
-                </div>             
-            </div>  
-        </div>
-        
-     
-
-       
-        
-
-
-
+                    <div class="cartao_box">Auditivo</div>
+                </div> <!-- /div.cartao_imagem -->          
+            </div>  <!-- /div.cartao -->
+        </div> <!-- /div#cartoes -->
     </section> <!-- section#conteudo -->
 
     <footer id="rodape">
-
+        <div id="box_inferior">
+            <div id="box_titulo_noticias">
+                <p>Título das notícias mais recentes sobre cursos e informativos relacionados</p>
+            </div> <!-- div#box_titulo -->
+            <div id="img_noticia">
+                <img src="img/icone_noticia_01.png" alt="" class="circle">
+            </div> <!-- /div#box_noticia -->
+        </div> <!-- /div#box_inferior -->
     </footer> <!-- footer#rodape -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
