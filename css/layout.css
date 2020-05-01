@@ -11,10 +11,15 @@
     --laranja:        #F7AE60;
     --roxo:           #8B7BB7;
     --roxo50:         rgba(139, 123, 183, 0.5);
+    --cinza:          #F1F9FA;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
     color: var(--azul-escuro);
+}
+
+body {
+    background-color: var(--cinza);
 }
 
 
