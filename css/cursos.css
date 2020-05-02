@@ -1,0 +1,146 @@
+@charset: "utf-8";
+
+*{
+    --roxo:           #8B7BB7;
+    --roxo20:         rgba(139, 123, 183, 0.2);
+    --azul-escuro:    #0D3759;
+}
+
+
+/* BARRA DE PESQUISA */
+header div#box_pesquisa{
+    background-color: var(--roxo20);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    right: 0px;
+    top: 120px;
+}
+
+header div#box_pesquisa input {
+    background-color: #ffffff;
+    height: 70%;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 10px;  
+    margin: 8px;
+    border-bottom: 0px solid;
+}
+
+div#box_base {
+    height: 100%;
+    text-align: center;
+}
+
+div#box_base div:nth-child(1) {
+    height: 50px;
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#box_base div:nth-child(2) {
+    height: 50px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#box_base div i{
+    color: var(--roxo);
+}
+
+
+/* SECTION#CONTEUDO */
+section#conteudo {
+    padding: 0;
+    padding-top: 190px ;
+    padding-bottom: 80px;
+}
+
+/* LISTA DE CURSOS */
+div#grupo_cartoes {
+    text-align: center;
+}
+
+div.cartao_curso {
+    width: 390px;
+    height: 200px;
+    background-color: var(--roxo20) ;
+    border-radius: 15px;
+    padding: 10px;
+    vertical-align: middle;
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.esquerda {
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 140px;
+    height: 140px;
+    border-radius: 150px;
+}
+
+div.cartao_curso:nth-child(1) div.esquerda {
+    background-image: url("../img/curso_01.jpg") ;
+}
+
+div.cartao_curso:nth-child(2) div.esquerda {
+    background-image: url("../img/curso_02.jpg") ;
+}
+
+div.cartao_curso:nth-child(3) div.esquerda {
+    background-image: url("../img/curso_03.jpg") ;
+}
+
+div.cartao_curso:nth-child(4) div.esquerda {
+    background-image: url("../img/curso_04.jpg") ;
+}
+
+div.cartao_curso:nth-child(5) div.esquerda {
+    background-image: url("../img/curso_01.jpg") ;
+}
+
+div.cartao_curso:nth-child(6) div.esquerda {
+    background-image: url("../img/curso_02.jpg") ;
+}
+
+div.direita {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    width: 250px;
+}
+
+div.cartao_curso div.direita h4 {
+    margin: 2px 0;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    text-align: left;
+    font-weight: 900;
+}
+
+ section#conteudo div.direita p {
+    font-size: 1.1em;
+    text-align: left;
+}
+
+div.cartao_curso div.direita p:nth-child(5) {
+    padding-top: 20px;
+    color: var(--roxo);
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
