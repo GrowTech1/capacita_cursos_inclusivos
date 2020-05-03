@@ -64,7 +64,7 @@ div#grupo_cartoes {
     text-align: center;
 }
 
-div.cartao_curso {
+div.cartao_noticia {
     width: 390px;
     height: 160px;
     background-color: var(--roxo20) ;
@@ -84,31 +84,31 @@ div.esquerda {
     vertical-align: middle;
     width: 140px;
     height: 140px;
-    border-radius: 150px;
+    border-radius: 15px;
 }
 
-div.cartao_curso:nth-child(1) div.esquerda {
-    background-image: url("../img/curso_01.jpg") ;
+div.cartao_noticia:nth-child(1) div.esquerda {
+    background-image: url("../img/noticia_01.jpg") ;
 }
 
-div.cartao_curso:nth-child(2) div.esquerda {
-    background-image: url("../img/curso_02.jpg") ;
+div.cartao_noticia:nth-child(2) div.esquerda {
+    background-image: url("../img/noticia_02.jpg") ;
 }
 
-div.cartao_curso:nth-child(3) div.esquerda {
-    background-image: url("../img/curso_03.jpg") ;
+div.cartao_noticia:nth-child(3) div.esquerda {
+    background-image: url("../img/noticia_03.jpg") ;
 }
 
-div.cartao_curso:nth-child(4) div.esquerda {
-    background-image: url("../img/curso_04.jpg") ;
+div.cartao_noticia:nth-child(4) div.esquerda {
+    background-image: url("../img/noticia_02.jpg") ;
 }
 
-div.cartao_curso:nth-child(5) div.esquerda {
-    background-image: url("../img/curso_01.jpg") ;
+div.cartao_noticia:nth-child(5) div.esquerda {
+    background-image: url("../img/noticia_03.jpg") ;
 }
 
-div.cartao_curso:nth-child(6) div.esquerda {
-    background-image: url("../img/curso_02.jpg") ;
+div.cartao_noticia:nth-child(6) div.esquerda {
+    background-image: url("../img/noticia_01.jpg") ;
 }
 
 div.direita {
@@ -118,9 +118,9 @@ div.direita {
     width: 250px;
 }
 
-div.cartao_curso div.direita h4 {
+div.cartao_noticia div.direita h4 {
     margin: 2px 0;
-    margin-bottom: 10px;
+    
     font-size: 1.1em;
     text-align: left;
     font-weight: 900;
@@ -131,16 +131,20 @@ div.cartao_curso div.direita h4 {
     text-align: left;
 }
 
-div.cartao_curso div.direita p:nth-child(5) {
+div.cartao_noticia div.direita p:nth-child(3) {
+    padding-top: 10px;
+}
+
+div.cartao_noticia div.direita p:nth-child(4) {
     padding-top: 20px;
     font-weight: 900;
 }
 
-div.cartao_curso div.direita p:nth-child(5) a {
+div.cartao_noticia div.direita p:nth-child(4) a {
     color: var(--roxo);
 }
 
-div.cartao_curso div.direita p:nth-child(5) a:hover {
+div.cartao_noticia div.direita p:nth-child(4) a:hover {
     color: var(--roxo70);
 }
 
