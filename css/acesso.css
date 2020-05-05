@@ -1,0 +1,49 @@
+
+@charset:"utf-8";
+
+/* RESET E VARIÁVEIS */
+* {
+    --azul-escuro:    #0D3759;
+    --azul-escuro50:  rgba(13, 55, 89, 0.5);
+    --azul:           #006DAA;
+    --azul80:         rgba(0, 108, 170, 0.8);
+    --verde:          #00A1C1;
+    --laranja:        #F7AE60;
+    --roxo:           #8B7BB7;
+    --roxo50:         rgba(139, 123, 183, 0.5);
+    --cinza:          #F1F9FA;
+}
+
+/* TELA LOGIN */
+
+section#formulario {
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div#box_log {
+    background-color: #eceff1;
+    min-width: 350px;
+    max-width: 500px;
+    float: center;
+    padding: 80px 20px 10px 20px;
+    border-radius: 25px;
+}
+
+section#formulario div#senha i {
+    color:#eceff1;
+    border-radius: 4px;
+    width: 7%;
+    padding-left: 10px;
+}
+
+div#senha a {
+    color: inherit;
+}
+
+div.bt a {
+    margin: 0 0 15px 0;
+    width: 100%;
+    border-radius: 25px;
+}
