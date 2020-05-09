@@ -1,5 +1,4 @@
-
-@charset:"utf-8";
+@charset "utf-8";
 
 /* RESET E VARIÁVEIS */
 * {
@@ -131,6 +130,11 @@ header h3 {
 
 .sidenav li div span {
    font-size: 1.2em;
+}
+
+/* SECTION#CONTEUDO */
+section#conteudo {
+    padding-top: 190px ;
 }
 
 

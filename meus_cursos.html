@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/acesso.css">
-    <title>CAPCACITA - Log-in</title>
+    <link rel="stylesheet" href="css/meus_cursos.css">
+    <title>CAPCACITA - Cursos Inclusivos</title>
 </head>
 
 <body>
@@ -21,14 +21,14 @@
                 </a>    
             </div> <!-- /div#menu -->
             <div id="box_icone">
-                <i class="medium material-icons" id="icone_direita">home</i>
+                <i class="medium material-icons" id="icone_direita">school</i>               
             </div> <!-- /div#icone -->
             <h1>CAPACITA</h1>
             <h2>Cursos Inclusivos</h2> 
         </div> <!-- /div#topo -->
 
         <div id="box_titulo">
-            <h3>FAZER LOGIN </h3>
+            <h3>Meus Cursos</h3>
         </div> <!-- /div#titulo -->
 
         <ul id="menu" class="sidenav">
@@ -67,30 +67,65 @@
         
     </header><!-- /header#id -->
 
-    <section id="formulario">
-        <div class="row" id="box_log">
-            <form class="col s12" id="log_inicial">
-                <div class="row" id="log">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix" id="icon_log" style="color:#00a1c1; background-color: #eceff1;">account_box</i>
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label class="active" for="icon_prefix">E-mail/CNPJ</label> <!-- ver a questão do CNPJ -->
-                    </div>
-                <div class="row" id="senha">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix" id="icon_senha" style="color:#00a1c1;">lock</i>
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label class="active" for="icon_prefix">Senha</label> <!-- ver a questão do CNPJ -->
-                        <span class="helper-text" data-error="wrong" data-success="right"><a href="#" style="color: inherit;">Esqueceu a senha?</a></span>
-                    </div>
-            </form>
-        </div>
-        <div class="bt">
-            <a class="waves-effect waves-light btn-small" id="bt1" href="meus_cursos.html">ENTRAR</a><br />
-            <a class="waves-effect waves-light btn-small" id="bt2">Inscreva-se no CAPACITA</a><br />
-            <a class="waves-effect waves-light btn-small" id="bt3">Incrição Instituição</a>
-        </div> <!-- /.bt -->
-    </section> <!-- /.formulario -->
+    <section id="conteudo">
+       
+        <div id="historico" class="row">
+            
+            <div id="cabecalho"  class="col s12">
+                <div id="cabecalho_esquerda">
+                    <div id="foto"></div>
+                </div> <!-- /div#cabecalho_esquerda -->
+                <div id="cabecalho_direita">
+                    <div id="dados">
+                        <p>Fulano Beltrano Ciclano de Tal</p>
+                        <p>Deficiência: Visual</p>
+                    </div> <!-- /div#dados -->
+                </div> <!-- /div#cabecalho_direita -->
+            </div> <!-- /div#cabecalho -->
+
+            <div class="agrupamento">
+                <div class="informacoes col s12" >
+                    <div class="inf_esquerda">
+                        <div class="curso_foto"></div>
+                        <div class="curso_nome">
+                            <h6>Cursos para Todos</h6>
+                        </div>
+                    </div> <!-- /div.inf_esquerda -->
+                    <div class="inf_direita">
+                        <div class="curso_detalhes">
+                            <p>Curso 01 - 00/00/000<br>Carga Horária: 80<br>
+                            <p><a href="#">Cancelar Inscrição</a></p>
+                            <hr>
+                            <p>Curso 02 - 00/00/000<br>Carga Horária: 80<br></p>
+                            <p><a href="#">Cancelar Inscrição</a></p>    
+                        </div> <!-- /div.curso_detalhes -->
+                    </div> <!-- /div.inf_direita -->
+                </div> <!-- /div.informacoes -->
+            </div> <!-- /div.agrupamento --> 
+
+            <div class="agrupamento">
+                <div class="informacoes col s12" >
+                    <div class="inf_esquerda">
+                        <div class="curso_foto"></div>
+                        <div class="curso_nome">
+                            <h6>Cursos Online</h6>
+                        </div>
+                    </div> <!-- /div.inf_esquerda -->
+                    <div class="inf_direita">
+                        <div class="curso_detalhes">
+                            <p>Curso 01 - 00/00/000<br>Carga Horária: 80<br>
+                            <p><a href="#">Cancelar Inscrição</a></p>
+                            <hr>
+                            <p>Curso 02 - 00/00/000<br>Carga Horária: 80<br></p>
+                            <p><a href="#">Cancelar Inscrição</a></p>    
+                        </div> <!-- /div.curso_detalhes -->
+                    </div> <!-- /div.inf_direita -->
+                </div> <!-- /div.informacoes -->
+            </div> <!-- /div.agrupamento --> 
+       
+        </div> <!-- /div#historico -->
+
+    </section> <!-- section#conteudo -->
 
     <footer id="rodape">
         <div id="box_inferior">
