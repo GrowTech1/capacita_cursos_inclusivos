@@ -1,0 +1,120 @@
+
+@charset:"utf-8";
+
+/* RESET E VARIÁVEIS */
+* {
+    --azul-escuro:    #0D3759;
+    --azul-escuro50:  rgba(13, 55, 89, 0.5);
+    --azul:           #006DAA;
+    --azul80:         rgba(0, 108, 170, 0.8);
+    --verde:          #00A1C1;
+    --laranja:        #F7AE60;
+    --roxo:           #8B7BB7;
+    --roxo50:         rgba(139, 123, 183, 0.5);
+    --cinza:          #F1F9FA;
+}
+
+/* INFO CURSOS*/
+
+section#infoCursos {
+    padding: 20px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    
+}
+
+section#infoCursos img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section#infoCursos h4 {
+    text-align: center;
+}
+
+div#bt {
+    text-align: center;
+}
+
+a#bt1 {
+    border-radius: 25px;
+    background-color: #f7ae60;
+}
+
+article#textoCurso {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+
+article#textoCurso div#texto {
+    display: inline-block;
+    text-align: center;
+    min-width: 300px;
+    max-width: 500px
+
+}
+
+article#textoCurso div.horario p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 0.1em;
+}
+
+article#textoCurso div.info {
+    text-align: center;
+    display: inline-block;
+    background-color: #cecae2;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 25px ;
+    width: 300px;
+}
+
+
+article#textoCurso div.info input {
+    text-align: center;
+}
+
+article#textoCurso form span {
+    margin: 8px 3px 3px 3px;
+}
+
+div#diaSemana {
+    position: relative;
+    text-align: left;
+}
+div#bannerDiaSemana {
+    background-color: #8B7BB7;
+    width: 120px;
+    padding: 5px;
+    border-radius: 25px;
+    position: absolute;
+    top: -10px;
+    left: 30px;
+}
+
+div#deficiencia {
+    position: relative; 
+}
+
+div#bannerDeficiencia {
+    background-color: #8B7BB7;
+    width: 120px;
+    padding: 5px;
+    border-radius: 25px;
+    position: absolute;
+    top: -10px;
+    left: 30px;
+
+}
+
+div.info div p span {
+    color: #ffffff;
+}
+
+
+

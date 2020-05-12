@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/infoCursos.css">
+    <title>CAPCACITA - ACESSO</title> 
+</head>
+
+<body>
+    <header>
+        <div id="topo">
+            <div id="box_menu">
+                <a href="#" data-target="menu" class="sidenav-trigger">
+                    <i class="medium material-icons" id="icone_esquerda">menu</i>
+                </a>    
+            </div> <!-- /div#menu -->
+            <div id="box_icone">
+                <i class="medium material-icons" id="icone_direita">menu_book</i>
+            </div> <!-- /div#icone -->
+            <h1>CAPACITA</h1>
+            <h2>Cursos Inclusivos</h2> 
+        </div> <!-- /div#topo -->
+
+        <div id="box_titulo">
+            <h3>CURSOS </h3>
+        </div> <!-- /div#titulo -->
+
+        <ul id="menu" class="sidenav">
+            <li>
+                <div id="faixa_menu">
+                    <div>Menu</div>
+                    <div><a class="sidenav-close"><i class="material-icons">close</i></a></div>
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="index.html"><img src="img/btn_inicio.svg" alt="Botão de Acesso a Página Inicial"> <span>Início</span></a> 
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="acesso.html"><img src="img/btn_acesso.svg" alt="Botão de Acesso"> <span>Acesso</span></a> 
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="cursos.html"><img src="img/btn_cursos.svg" alt="Botão de aos Cursos"> <span>Cursos</span></a> 
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="forum.html"><img src="img/btn_forum.svg" alt="Botão de ao Fórum"> <span>Fórum</span></a> 
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="noticias.html"><img src="img/btn_noticias.svg" alt="Botão de as Notícias"> <span>Notícias</span></a> 
+                </div>
+            </li>
+        </ul> <!-- /ul.sidenav -->
+        
+    </header><!-- /header#id -->
+
+    <section id="infoCursos">
+        <img src="img/curso_01.jpg" class="circle responsive-img displayed">   
+        <h4>Informática Básica</h4> <br />
+        <div id="bt">
+            <a class="waves-effect waves-light btn-small" id="bt1">Inscreva-se</a>
+        </div> <!-- /#bt --> <br />
+ 
+        <article id="textoCurso">
+            <div id="texto">
+                <p>Conhecimento básico de como utilizar um computador é fundamental.
+                A informatização está presente em praticamente todos os setores da vida moderna.
+                Com este curso de informática básica você terá acesso aos principais conhecimentos
+                da informática.</p>
+            </div> <!-- /#texto --> <br />
+            <div class="horario">
+                <br>
+                <p>Carga Horária: 80hs</p> <br>
+                <p>Horário: 8hs às 10hs</p> <br>
+                <br>
+            </div> <!-- /#horario -->
+            <div class="info" id="diaSemana">
+                <div id="bannerDiaSemana">
+                    <p>
+                        <span>Dias:</span>
+                    </p>
+                </div>
+                <form action="#" class="semana" id="diaSemana">
+                    <p>
+                        <label>
+                            <input type="checkbox" class="filled-in" name="dsemana" value="seg" id="segunda"/>
+                            <span>Seg</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filled-in" name="dsemana" value="ter" id="terca"/>
+                            <span>Ter</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filled-in" name="dsemana" value="qua" id="quarta"/>
+                            <span>Qua</span>
+                        </label> <br>
+                        <label>
+                            <input type="checkbox" class="filled-in" name="dsemana" value="qui" id="quinta"/>
+                            <span>Qui</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filled-in" name="dsemana" value="sex" id="sexta"/>
+                            <span>Sex</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filled-in" name="dsemana" value="sab" id="sabado"/>
+                            <span>Sab</span>
+                        </label>
+                    </p>
+                </form>
+            </div> <br/>
+            <div class="info" id="deficiencia">
+                <div id="bannerDeficiencia">
+                    <p>
+                        <span>Portador tipo:</span>
+                    </p>
+                </div>
+                <form action="#" class="deficiencia" id="tipoDeficiencia">
+                    <p>
+                        <label>
+                          <input type="checkbox" class="filled-in" name="tDeficiencia" value="autidivo" id="auditivo"/>
+                          <span>Auditivo</span>
+                        </label>
+                        <label>
+                          <input type="checkbox" class="filled-in" name="tDeficiencia" value="fisico" id="fisico"/>
+                          <span>Físico</span>
+                        </label>
+                        <label>
+                          <input type="checkbox" class="filled-in" name="tDeficiencia" value="mudez" id="mudez"/>
+                          <span>Mudez</span>
+                        </label> <br />
+                        <label>
+                          <input type="checkbox" class="filled-in" name="tDeficiencia" value="mental" id="mental"/>
+                          <span>Mental</span>
+                        </label>
+                        <label>
+                          <input type="checkbox" class="filled-in" name="tDeficiencia" value="visual" id="visual"/>
+                          <span>Visual</span>
+                        </label>
+                      </p>
+                </form>
+            </div>
+        </article> <!-- /#tectoCurso -->
+    </section> <!-- /.infoCursos -->
+
+    <footer id="rodape">
+        <div id="box_inferior">
+            <div id="box_titulo_noticias">
+                <p>Título das notícias mais recentes sobre cursos e informativos relacionados</p>
+            </div> <!-- div#box_titulo -->
+            <div id="img_noticia">
+                <img src="img/icone_noticia_01.png" alt="" class="circle">
+            </div> <!-- /div#box_noticia -->
+        </div> <!-- /div#box_inferior -->
+    </footer> <!-- footer#rodape -->
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>
