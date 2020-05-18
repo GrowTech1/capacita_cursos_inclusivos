@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+* {
+    --azul-escuro:    #0D3759;
+    --azul-escuro50:  rgba(13, 55, 89, 0.5);
+    --azul:           #006DAA;
+    --azul80:         rgba(0, 108, 170, 0.8);
+    --verde:          #00A1C1;
+    --laranja:        #F7AE60;
+    --roxo:           #8B7BB7;
+    --roxo50:         rgba(139, 123, 183, 0.5);
+    --roxo30:         rgba(139, 123, 183, 0.3);
+    --cinza:          #F1F9FA;
+}
+
+section#lanc_curso {
+    padding-top: 150px;
+    padding-bottom: 120px;
+    margin: auto;
+}
+
+section#lanc_curso div#bloco_cadastro {
+    margin: 0 10%;
+}
+
+/* BLOCO DA IMAGEM */
+div#bloco_cadastro div#bloco_imagem_curso {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#bloco_cadastro div#img_curso {
+    background-image: url("../img/curso_01.jpg");
+    background-size: 100%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* BLOCO DO FORMULARIO */
+section#lanc_curso form#formularios {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section#lanc_curso div#bloco_cadastro .input-field {
+    margin: 15px auto;
+    min-width: 300px;
+    max-width: 800px;
+}
+
+/* BLOCOS DE OPÇÕES */
+section#lanc_curso div.bloco {
+    display: flex;
+    align-content: center;
+    position: relative;
+    background-color: var(--roxo30);
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 20px auto ;
+    padding: 10px 20px;
+    padding-top: 15px;
+    padding-right: 0;
+
+}
+
+section#lanc_curso div.bloco p  {
+    padding-left: 15px;
+}
+
+section#lanc_curso div.bloco p label span {
+    width: 80px;
+}
+
+section#lanc_curso div.bloco p label span {
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+section#lanc_curso div.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background-color: var(--roxo);
+    width: 75px;
+    height: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+/* manipulação dos formulários materialize */
+[type="checkbox"].filled-in:checked + span:not(.lever):after {
+    border: 2px solid var(--roxo30);
+    background-color: var(--roxo);
+}
+
+.input-field input[type=text]:focus + label {
+    color: var(--azul-escuro)!important;
+}
+
+.input-field input[type=text]:focus{
+    border-bottom: 1px solid var(--azul)!important;
+    box-shadow: 0 1px 0 0 var(--azul)!important;
+}
+
+.input-field input[type=text].valid {
+border-bottom: 1px solid #9e9e9e!important;
+box-shadow: 0 0px 0 0 #9e9e9e!important;
+}
+
+.input-field input[type=text].valid:hover {
+border-bottom: 1px solid var(--azul)!important;
+box-shadow: 0 1px 0 0 var(--azul)!important;
+}
+
+/* BOTÕES DE CONFIRMAÇÃO */
+section#lanc_curso div#botoes {
+    display: flex;
+    justify-content: center;
+}
+
+section#lanc_curso .botao a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--roxo30);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+section#lanc_curso div.botao:nth-child(1) i{
+    color: rgba(12, 139, 12, 0.3);
+}
+
+section#lanc_curso div.botao:nth-child(2) i{
+    color: rgba(255, 51, 0, 0.3);
+}
+
+section#lanc_curso div.botao:nth-child(1) i:hover{
+    color: rgba(12, 139, 12, 0.8);
+}
+
+section#lanc_curso div.botao:nth-child(2) i:hover{
+    color: rgba(255, 51, 0, 0.8);
+}
+
