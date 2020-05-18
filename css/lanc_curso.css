@@ -13,6 +13,11 @@
     --cinza:          #F1F9FA;
 }
 
+header h3 {
+    font-size: 1.2em;
+    padding-top: 4px;
+}
+
 section#lanc_curso {
     padding-top: 150px;
     padding-bottom: 120px;
