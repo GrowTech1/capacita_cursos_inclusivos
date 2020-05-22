@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/conta_instituicao.css">
+    <title>CAPCACITA - Cursos Inclusivos</title>
+</head>
+
+<body>
+    <header>
+        <div id="topo">
+            <div id="box_menu">
+                <a href="#" data-target="menu" class="sidenav-trigger">
+                    <i class="medium material-icons" id="icone_esquerda">menu</i>
+                </a>    
+            </div> <!-- /div#menu -->
+            <div id="box_icone">
+                <i class="medium material-icons" id="icone_direita">perm_identity</i>               
+            </div> <!-- /div#icone -->
+            <h1>CAPACITA</h1>
+            <h2>Cursos Inclusivos</h2> 
+        </div> <!-- /div#topo -->
+
+        <div id="box_titulo">
+            <h3>CONTA DA INSTITUIÇÃO</h3>
+        </div> <!-- /div#titulo -->
+
+        <ul id="menu" class="sidenav">
+            <li>
+                <div id="faixa_menu">
+                    <div>Menu</div>
+                    <div><a class="sidenav-close"><i class="material-icons">close</i></a></div>
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="index.html"><img src="img/btn_inicio.svg" alt="Botão de Acesso a Página Inicial"> <span>Início</span></a> 
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="acesso.html"><img src="img/btn_acesso.svg" alt="Botão de Acesso"> <span>Acesso</span></a> 
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="cursos.html"><img src="img/btn_cursos.svg" alt="Botão de aos Cursos"> <span>Cursos</span></a> 
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="forum.html"><img src="img/btn_forum.svg" alt="Botão de ao Fórum"> <span>Fórum</span></a> 
+                </div>
+            </li>
+            <li>
+                <div class="opcoes">
+                   <a href="noticias.html"><img src="img/btn_noticias.svg" alt="Botão de as Notícias"> <span>Notícias</span></a> 
+                </div>
+            </li>
+        </ul> <!-- /ul.sidenav -->
+        
+    </header><!-- /header#id -->
+
+    <section id="conta_instituicao">
+        <div id="cadastro">
+            <div class="row">
+                <form action="#" id="formulario">
+                    <div id="bloco_imagem">
+                        <div class="col s3">
+                            <div id="imagem_estudante">
+                                <div id="img_estudante"></div>
+                                <a href="#">Adicionar Imagem</a>
+                            </div>
+                        </div>
+                        <div class="col s9">
+                            <div class="input-field">
+                                <input id="nome_curso" type="text" class="validate">
+                                <label for="nome_curso">Nome:</label>
+                            </div>
+                            <div class="input-field">
+                                <input id="cnpj" type="text" class="validate">
+                                <label for="cnpj">CNPJ:</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-field">
+                        <input id="e_mail" type="email" class="validate">
+                        <label for="e_mail">E-mail:</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input id="senha" type="password" class="validate">
+                        <label for="senha">Senha:</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input id="repetir_senha" type="password" class="validate">
+                        <label for="repetir_senha">Repita a Senha:</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input id="endereco" type="text" class="validate">
+                        <label for="endereco">Endereço:</label>
+                    </div>
+
+                    <div id="bloco_num_compl">
+                        <div class="input-field col s4" id="num">
+                            <input id="numero" type="text" class="validate">
+                            <label for="numero" style="margin-left: -10px;">Número:</label>
+                        </div>
+                        <div class="break"></div>
+                        <div class="input-field col s8" id="comp">
+                            <input id="complemento" type="text" class="validate">
+                            <label for="complemento">Complemento:</label>
+                        </div>
+                    </div>
+
+                    <div class="input-field">
+                        <input id="bairro" type="text" class="validate">
+                        <label for="bairro">Bairro:</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input id="cep" type="text" class="validate">
+                        <label for="cep">CEP:</label>
+                    </div>
+                </form> <!-- /form#formularios -->
+            </div> <!-- /row -->
+
+            <div id="botoes">
+                <div class="botao_confirmar botao">
+                    <a href="#"><i class="medium material-icons">check</i></a>
+                </div>
+                <div class="botao_cancelar botao">
+                    <a href="#"><i class="medium material-icons">close</i></a>
+                </div>
+            </div>
+            
+
+        </div> <!-- /div#bloco_cadastro -->
+
+    </section> <!-- section#lanc_cursos -->
+
+    <footer id="rodape">
+        <div id="box_inferior">
+            <div id="box_titulo_noticias">
+                <p>Título das notícias mais recentes sobre cursos e informativos relacionados</p>
+            </div> <!-- div#box_titulo -->
+            <div id="img_noticia">
+                <img src="img/icone_noticia_01.png" alt="" class="circle">
+            </div> <!-- /div#box_noticia -->
+        </div> <!-- /div#box_inferior -->
+    </footer> <!-- footer#rodape -->
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>

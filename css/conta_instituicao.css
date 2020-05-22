@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+* {
+    --azul-escuro:    #0D3759;
+    --azul-escuro50:  rgba(13, 55, 89, 0.5);
+    --azul:           #006DAA;
+    --azul80:         rgba(0, 108, 170, 0.8);
+    --verde:          #00A1C1;
+    --laranja:        #F7AE60;
+    --roxo:           #8B7BB7;
+    --roxo50:         rgba(139, 123, 183, 0.5);
+    --roxo30:         rgba(139, 123, 183, 0.3);
+    --cinza:          #F1F9FA;
+}
+
+header h3 {
+    font-size: 1.2em;
+    padding-top: 4px;
+}
+
+section#conta_instituicao {
+    padding-top: 150px;
+    padding-bottom: 120px;
+    margin: auto;
+}
+
+section#conta_instituicao div#cadastro {
+    margin: 0 10%;
+}
+
+/* BLOCO DA IMAGEM */
+div#cadastro div#imagem_estudante {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#cadastro div#img_estudante {
+    background-image: url("../img/logo_curso_02.jpg");
+    background-size: 100%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* BLOCO DO FORMULARIO */
+section#conta_instituicao form#formulario {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section#conta_instituicao div#cadastro .input-field {
+    margin: 15px auto;
+    min-width: 300px;
+    max-width: 800px;
+}
+
+form#formulario div {
+    display: flex;
+    justify-content: center;
+}
+
+/* BLOCOS DE OPÇÕES */
+section#conta_instituicao div.bloco {
+    display: flex;
+    align-content: center;
+    position: relative;
+    background-color: var(--roxo30);
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 20px auto ;
+    padding: 10px 20px;
+    padding-top: 15px;
+    padding-right: 0;
+
+}
+
+section#conta_instituicao div.bloco p  {
+    padding-left: 15px;
+}
+
+section#conta_instituicao div.bloco p label span {
+    width: 80px;
+}
+
+section#conta_instituicao div.bloco p label span {
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+section#conta_instituicao div.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background-color: var(--roxo);
+    width: 75px;
+    height: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+div#bloco_num_compl {
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+}
+
+div#bloco_num_compl div#num {
+   padding-left: 0px; /* padding do campo número*/
+}
+
+div#bloco_num_compl div#comp {
+    padding-right: 0px;
+}
+
+div#bloco_imagem {
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+}
+
+div#bloco_imagem div {
+    display: block;
+}
+
+/* manipulação dos formulários materialize */
+
+.input-field input[type=text]:focus + label {
+    color: var(--azul-escuro)!important;
+}
+
+.input-field input[type=password]:focus + label {
+    color: var(--azul-escuro)!important;
+}
+
+.input-field input[type=email]:focus + label {
+    color: var(--azul-escuro)!important;
+}
+
+.input-field input[type=text]:focus{
+    border-bottom: 1px solid var(--azul)!important;
+    box-shadow: 0 1px 0 0 var(--azul)!important;
+}
+
+.input-field input[type=text].valid {
+border-bottom: 1px solid #9e9e9e!important;
+box-shadow: 0 0px 0 0 #9e9e9e!important;
+}
+
+.input-field input[type=text].valid:hover {
+border-bottom: 1px solid var(--azul)!important;
+box-shadow: 0 1px 0 0 var(--azul)!important;
+}
+
+.input-field input[type=password]:focus{
+    border-bottom: 1px solid var(--azul)!important;
+    box-shadow: 0 1px 0 0 var(--azul)!important;
+}
+
+.input-field input[type=password].valid {
+border-bottom: 1px solid #9e9e9e!important;
+box-shadow: 0 0px 0 0 #9e9e9e!important;
+}
+
+.input-field input[type=password].valid:hover {
+border-bottom: 1px solid var(--azul)!important;
+box-shadow: 0 1px 0 0 var(--azul)!important;
+}
+
+.input-field input[type=email]:focus{
+    border-bottom: 1px solid var(--azul)!important;
+    box-shadow: 0 1px 0 0 var(--azul)!important;
+}
+
+.input-field input[type=email].valid {
+border-bottom: 1px solid #9e9e9e!important;
+box-shadow: 0 0px 0 0 #9e9e9e!important;
+}
+
+.input-field input[type=email].valid:hover {
+border-bottom: 1px solid var(--azul)!important;
+box-shadow: 0 1px 0 0 var(--azul)!important;
+}
+
+/* BOTÕES DE CONFIRMAÇÃO */
+section#conta_instituicao div#botoes {
+    display: flex;
+    justify-content: center;
+}
+
+section#conta_instituicao .botao a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--roxo30);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+section#conta_instituicao div.botao:nth-child(1) i{
+    color: rgba(12, 139, 12, 0.3);
+}
+
+section#conta_instituicao div.botao:nth-child(2) i{
+    color: rgba(255, 51, 0, 0.3);
+}
+
+section#conta_instituicao div.botao:nth-child(1) i:hover{
+    color: rgba(12, 139, 12, 0.8);
+}
+
+section#conta_instituicao div.botao:nth-child(2) i:hover{
+    color: rgba(255, 51, 0, 0.8);
+}
+
