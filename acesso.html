@@ -21,7 +21,7 @@
                 </a>    
             </div> <!-- /div#menu -->
             <div id="box_icone">
-                <i class="medium material-icons" id="icone_direita">settings_input_component</i>
+                <img src="img/icon_plugin.svg" alt="Página de LOGIN">
             </div> <!-- /div#icone -->
             <h1>CAPACITA</h1>
             <h2>Cursos Inclusivos</h2> 
@@ -80,17 +80,29 @@
                 <div class="row" id="senha">
                     <div class="input-field col s12">
                         <i class="material-icons prefix" id="icon_senha" style="color:#00a1c1;">lock</i>
-                        <input id="icon_prefix2" type="text" class="validate">
+                        <input id="icon_prefix2" type="password" class="validate">
                         <label class="active" for="icon_prefix2">Senha</label> <!-- ver a questão do CNPJ -->
                         <span class="helper-text" data-error="wrong" data-success="right"><a href="#" style="color: inherit;">Esqueceu a senha?</a></span>
                     </div>
                 </div>
             </form>
             <div class="bt">
-                <a class="waves-effect waves-light btn-small" id="bt1">ENTRAR</a><br />
-                <a class="waves-effect waves-light btn-small" id="bt2">Inscreva-se no CAPACITA</a><br />
-                <a class="waves-effect waves-light btn-small" id="bt3">Incrição Instituição</a>
+                <a class="waves-effect waves-light btn-small modal-trigger" id="bt1" href="#escolha">ENTRAR</a><br />
+                <a class="waves-effect waves-light btn-small" id="bt2" href="conta_estudante.html">Inscreva-se no CAPACITA</a><br />
+                <a class="waves-effect waves-light btn-small" id="bt3" href="conta_instituicao.html">Incrição Instituição</a>
             </div> <!-- /.bt -->
+        </div>
+
+        <!-- MODAL DE OPÇÃO -->
+        <div id="escolha" class="modal">
+            <div class="modal-content">
+                <h4>SELEÇÃO</h4>
+                <p>Menu temporário. Selecione entre <span>Estudante</span> ou <span>Instituição</span></p>
+            </div>
+            <div class="modal-footer">
+                <a href="meus_cursos.html" class="modal-close waves-effect waves-green btn-flat">ESTUDANTE</a>
+                <a href="geren_instituicao.html" class="modal-close waves-effect waves-green btn-flat">INSTITUIÇÃO</a>
+            </div>
         </div>
 
     </section> <!-- /.formulario -->
