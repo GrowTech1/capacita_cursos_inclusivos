@@ -18,14 +18,17 @@ header h3 {
     padding-top: 4px;
 }
 
-section#conta_instituicao {
-    padding-top: 150px;
+section#conta_estudante {
+    padding: 5%;
+    padding-top: 120px;
     padding-bottom: 120px;
     margin: auto;
 }
 
-section#conta_instituicao div#cadastro {
-    margin: 0 10%;
+section#conta_estudante div#cadastro {
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
 }
 
 /* BLOCO DA IMAGEM */
@@ -39,21 +42,22 @@ div#cadastro div#imagem_estudante {
 div#cadastro div#img_estudante {
     background-image: url("../img/logo_curso_02.jpg");
     background-size: 100%;
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
 }
 
 /* BLOCO DO FORMULARIO */
-section#conta_instituicao form#formulario {
+section#conta_estudante form#formulario {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-section#conta_instituicao div#cadastro .input-field {
+section#conta_estudante div#cadastro .input-field {
     margin: 15px auto;
-    min-width: 300px;
-    max-width: 800px;
+    width: 100%;
+    /* min-width: 300px;
+    max-width: 800px; */
 }
 
 form#formulario div {
@@ -62,7 +66,7 @@ form#formulario div {
 }
 
 /* BLOCOS DE OPÇÕES */
-section#conta_instituicao div.bloco {
+section#conta_estudante div.bloco {
     display: flex;
     align-content: center;
     position: relative;
@@ -77,20 +81,20 @@ section#conta_instituicao div.bloco {
 
 }
 
-section#conta_instituicao div.bloco p  {
+section#conta_estudante div.bloco p  {
     padding-left: 15px;
 }
 
-section#conta_instituicao div.bloco p label span {
+section#conta_estudante div.bloco p label span {
     width: 80px;
 }
 
-section#conta_instituicao div.bloco p label span {
+section#conta_estudante div.bloco p label span {
     padding-left: 25px;
     padding-right: 20px;
 }
 
-section#conta_instituicao div.titulo {
+section#conta_estudante div.titulo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,11 +110,6 @@ section#conta_instituicao div.titulo {
     text-align: center;
 }
 
-div#bloco_num_compl {
-    min-width: 300px;
-    max-width: 800px;
-    margin: auto;
-}
 
 div#bloco_num_compl div#num {
    padding-left: 0px; /* padding do campo número*/
@@ -121,8 +120,6 @@ div#bloco_num_compl div#comp {
 }
 
 div#bloco_imagem {
-    min-width: 300px;
-    max-width: 800px;
     margin: auto;
 }
 
@@ -131,8 +128,13 @@ div#bloco_imagem div {
 }
 
 /* manipulação dos formulários materialize */
+[type="checkbox"].filled-in:checked + span:not(.lever):after {
+    border: 2px solid var(--roxo30);
+    background-color: var(--roxo);
+}
 
-.input-field input[type=text]:focus + label {
+.input-field input[type=text]:focus + label,
+.input-field input[type=number]:focus + label{
     color: var(--azul-escuro)!important;
 }
 
@@ -144,17 +146,20 @@ div#bloco_imagem div {
     color: var(--azul-escuro)!important;
 }
 
-.input-field input[type=text]:focus{
+.input-field input[type=text]:focus,
+.input-field input[type=number]:focus{
     border-bottom: 1px solid var(--azul)!important;
     box-shadow: 0 1px 0 0 var(--azul)!important;
 }
 
-.input-field input[type=text].valid {
+.input-field input[type=text].valid,
+.input-field input[type=number].valid {
 border-bottom: 1px solid #9e9e9e!important;
 box-shadow: 0 0px 0 0 #9e9e9e!important;
 }
 
-.input-field input[type=text].valid:hover {
+.input-field input[type=text].valid:hover,
+.input-field input[type=number].valid:hover {
 border-bottom: 1px solid var(--azul)!important;
 box-shadow: 0 1px 0 0 var(--azul)!important;
 }
@@ -190,12 +195,12 @@ box-shadow: 0 1px 0 0 var(--azul)!important;
 }
 
 /* BOTÕES DE CONFIRMAÇÃO */
-section#conta_instituicao div#botoes {
+section#conta_estudante div#botoes {
     display: flex;
     justify-content: center;
 }
 
-section#conta_instituicao .botao a {
+section#conta_estudante .botao a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,19 +211,19 @@ section#conta_instituicao .botao a {
     margin: 10px;
 }
 
-section#conta_instituicao div.botao:nth-child(1) i{
+section#conta_estudante div.botao:nth-child(1) i{
     color: rgba(12, 139, 12, 0.3);
 }
 
-section#conta_instituicao div.botao:nth-child(2) i{
+section#conta_estudante div.botao:nth-child(2) i{
     color: rgba(255, 51, 0, 0.3);
 }
 
-section#conta_instituicao div.botao:nth-child(1) i:hover{
+section#conta_estudante div.botao:nth-child(1) i:hover{
     color: rgba(12, 139, 12, 0.8);
 }
 
-section#conta_instituicao div.botao:nth-child(2) i:hover{
+section#conta_estudante div.botao:nth-child(2) i:hover{
     color: rgba(255, 51, 0, 0.8);
 }
 

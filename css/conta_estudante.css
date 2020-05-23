@@ -19,13 +19,16 @@ header h3 {
 }
 
 section#conta_estudante {
-    padding-top: 150px;
+    padding: 5%;
+    padding-top: 120px;
     padding-bottom: 120px;
     margin: auto;
 }
 
 section#conta_estudante div#cadastro {
-    margin: 0 10%;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
 }
 
 /* BLOCO DA IMAGEM */
@@ -39,8 +42,8 @@ div#cadastro div#imagem_estudante {
 div#cadastro div#img_estudante {
     background-image: url("../img/foto_usuario.jpg");
     background-size: 100%;
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
 }
 
@@ -52,8 +55,9 @@ section#conta_estudante form#formulario {
 
 section#conta_estudante div#cadastro .input-field {
     margin: 15px auto;
-    min-width: 300px;
-    max-width: 800px;
+    width: 100%;
+    /* min-width: 300px;
+    max-width: 800px; */
 }
 
 form#formulario div {
@@ -106,11 +110,6 @@ section#conta_estudante div.titulo {
     text-align: center;
 }
 
-div#bloco_num_compl {
-    min-width: 300px;
-    max-width: 800px;
-    margin: auto;
-}
 
 div#bloco_num_compl div#num {
    padding-left: 0px; /* padding do campo número*/
@@ -121,8 +120,6 @@ div#bloco_num_compl div#comp {
 }
 
 div#bloco_imagem {
-    min-width: 300px;
-    max-width: 800px;
     margin: auto;
 }
 
@@ -136,7 +133,8 @@ div#bloco_imagem div {
     background-color: var(--roxo);
 }
 
-.input-field input[type=text]:focus + label {
+.input-field input[type=text]:focus + label,
+.input-field input[type=number]:focus + label{
     color: var(--azul-escuro)!important;
 }
 
@@ -148,17 +146,20 @@ div#bloco_imagem div {
     color: var(--azul-escuro)!important;
 }
 
-.input-field input[type=text]:focus{
+.input-field input[type=text]:focus,
+.input-field input[type=number]:focus{
     border-bottom: 1px solid var(--azul)!important;
     box-shadow: 0 1px 0 0 var(--azul)!important;
 }
 
-.input-field input[type=text].valid {
+.input-field input[type=text].valid,
+.input-field input[type=number].valid {
 border-bottom: 1px solid #9e9e9e!important;
 box-shadow: 0 0px 0 0 #9e9e9e!important;
 }
 
-.input-field input[type=text].valid:hover {
+.input-field input[type=text].valid:hover,
+.input-field input[type=number].valid:hover {
 border-bottom: 1px solid var(--azul)!important;
 box-shadow: 0 1px 0 0 var(--azul)!important;
 }
