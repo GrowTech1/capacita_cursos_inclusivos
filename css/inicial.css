@@ -17,7 +17,7 @@
 
 section#conteudo {
     padding: 20px;
-    padding-top: 130px;
+    padding-top: 80px;
     width: 100%;
 }
 
@@ -53,11 +53,6 @@ ul.slides h4, ul.slides h5 {
     text-shadow: 5px 5px 10px #000000;
 }
 
-section#conteudo ul.slides {
-
-}
-
-
 /* BOTÕES */
 div#botoes {
     width: 100%;
@@ -74,18 +69,18 @@ div#botoes span {
     font-size: 2em;
 }
 
+
 div#botoes div {
     display: inline-block;
     padding: 20px 0px;
 }
 
+/* CARTÕES */
 div#cartoes {
     width: 100%;
     text-align: center;
 }
 
-
-/* CARTÕES */
 div#fisico {
     background-image: url("../img/cartao_fisico.png");
 }
@@ -94,12 +89,20 @@ div#visual {
     background-image: url("../img/cartao_visual.png");
 }
 
+div#mental {
+    background-image: url("../img/cartao_mental.png");
+}
+
 div#mudez {
     background-image: url("../img/cartao_mudez.png");
 }
 
 div#auditivo {
     background-image: url("../img/cartao_auditivo.png");
+}
+
+div#multiplos {
+    background-image: url("../img/cartao_multiplos.png");
 }
 
 div#cartoes .cartao {
@@ -127,3 +130,23 @@ div.cartao_box {
     font-size: 3em;
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 340px) {
+    section#conteudo {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    section#conteudo {
+        padding-top: 75px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    div#cartoes {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
