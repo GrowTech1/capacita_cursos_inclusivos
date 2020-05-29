@@ -31,81 +31,85 @@
             <h3>FAZER LOGIN </h3>
         </div> <!-- /div#titulo -->
 
-        <ul id="menu" class="sidenav">
-            <li>
-                <div id="faixa_menu">
-                    <div>Menu</div>
-                    <div><a class="sidenav-close"><i class="material-icons">close</i></a></div>
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="index.html"><img src="img/btn_inicio.svg" alt="Botão de Acesso a Página Inicial"> <span>Início</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="acesso.html"><img src="img/btn_acesso.svg" alt="Botão de Acesso"> <span>Acesso</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="cursos.html"><img src="img/btn_cursos.svg" alt="Botão de aos Cursos"> <span>Cursos</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="forum.html"><img src="img/btn_forum.svg" alt="Botão de ao Fórum"> <span>Fórum</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="noticias.html"><img src="img/btn_noticias.svg" alt="Botão de as Notícias"> <span>Notícias</span></a> 
-                </div>
-            </li>
-        </ul> <!-- /ul.sidenav -->
+        <aside>
+            <ul id="menu" class="sidenav">
+                <li>
+                    <div id="faixa_menu">
+                        <div>Menu</div>
+                        <div><a class="sidenav-close" href="#"><i class="material-icons">close</i></a></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="index.html"><img src="img/btn_inicio.svg" alt="Botão de Acesso a Página Inicial"> <span>Início</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="acesso.html"><img src="img/btn_acesso.svg" alt="Botão de Acesso"> <span>Acesso</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="cursos.html"><img src="img/btn_cursos.svg" alt="Botão de aos Cursos"> <span>Cursos</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="forum.html"><img src="img/btn_forum.svg" alt="Botão de ao Fórum"> <span>Fórum</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="noticias.html"><img src="img/btn_noticias.svg" alt="Botão de as Notícias"> <span>Notícias</span></a> 
+                    </div>
+                </li>
+            </ul> <!-- /ul.sidenav -->
+        </aside>
         
     </header><!-- /header#id -->
 
-    <section id="formulario">
-        <div class="row" id="box_log">
-            <form class="col s12" id="log_inicial">
-                <div class="row" id="log">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix" id="icon_log" style="color:#00a1c1; background-color: #eceff1;">account_box</i>
-                        <input id="icon_prefix1" type="text" class="validate">
-                        <label class="active" for="icon_prefix1">E-mail/CNPJ</label> <!-- ver a questão do CNPJ -->
+    <main>
+        <section id="formulario">
+            <div class="row" id="box_log">
+                <form class="col s12" id="log_inicial">
+                    <div class="row" id="log">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix" id="icon_log" style="color:#00a1c1; background-color: #eceff1;">account_box</i>
+                            <input id="icon_prefix1" type="text" class="validate">
+                            <label class="active" for="icon_prefix1">E-mail/CNPJ</label> <!-- ver a questão do CNPJ -->
+                        </div>
                     </div>
-                </div>
-                <div class="row" id="senha">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix" id="icon_senha" style="color:#00a1c1;">lock</i>
-                        <input id="icon_prefix2" type="password" class="validate">
-                        <label class="active" for="icon_prefix2">Senha</label> <!-- ver a questão do CNPJ -->
-                        <span class="helper-text" data-error="wrong" data-success="right"><a href="#" style="color: inherit;">Esqueceu a senha?</a></span>
+                    <div class="row" id="senha">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix" id="icon_senha" style="color:#00a1c1;">lock</i>
+                            <input id="icon_prefix2" type="password" class="validate">
+                            <label class="active" for="icon_prefix2">Senha</label> <!-- ver a questão do CNPJ -->
+                            <span class="helper-text" data-error="wrong" data-success="right"><a href="#" style="color: inherit;">Esqueceu a senha?</a></span>
+                        </div>
                     </div>
+                </form>
+                <div class="bt">
+                    <a class="waves-effect waves-light btn-small modal-trigger" id="bt1" href="#escolha">ENTRAR</a><br />
+                    <a class="waves-effect waves-light btn-small" id="bt2" href="conta_estudante.html">Inscreva-se no CAPACITA</a><br />
+                    <a class="waves-effect waves-light btn-small" id="bt3" href="conta_instituicao.html">Incrição Instituição</a>
+                </div> <!-- /.bt -->
+            </div>
+
+            <!-- MODAL DE OPÇÃO -->
+            <div id="escolha" class="modal">
+                <div class="modal-content">
+                    <h4>SELEÇÃO</h4>
+                    <p>Menu temporário. Selecione entre <span>Estudante</span> ou <span>Instituição</span></p>
                 </div>
-            </form>
-            <div class="bt">
-                <a class="waves-effect waves-light btn-small modal-trigger" id="bt1" href="#escolha">ENTRAR</a><br />
-                <a class="waves-effect waves-light btn-small" id="bt2" href="conta_estudante.html">Inscreva-se no CAPACITA</a><br />
-                <a class="waves-effect waves-light btn-small" id="bt3" href="conta_instituicao.html">Incrição Instituição</a>
-            </div> <!-- /.bt -->
-        </div>
-
-        <!-- MODAL DE OPÇÃO -->
-        <div id="escolha" class="modal">
-            <div class="modal-content">
-                <h4>SELEÇÃO</h4>
-                <p>Menu temporário. Selecione entre <span>Estudante</span> ou <span>Instituição</span></p>
+                <div class="modal-footer">
+                    <a href="meus_cursos.html" class="modal-close waves-effect waves-green btn-flat">ESTUDANTE</a>
+                    <a href="geren_instituicao.html" class="modal-close waves-effect waves-green btn-flat">INSTITUIÇÃO</a>
+                </div>
             </div>
-            <div class="modal-footer">
-                <a href="meus_cursos.html" class="modal-close waves-effect waves-green btn-flat">ESTUDANTE</a>
-                <a href="geren_instituicao.html" class="modal-close waves-effect waves-green btn-flat">INSTITUIÇÃO</a>
-            </div>
-        </div>
 
-    </section> <!-- /.formulario -->
+        </section> <!-- /.formulario -->
+    </main>
 
     <footer id="rodape">
         <div id="box_inferior">

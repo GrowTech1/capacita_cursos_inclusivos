@@ -15,8 +15,8 @@
 
 div#box_icone img{
     padding: 20px;
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
 }
 
 /* TELA LOGIN */
@@ -24,11 +24,12 @@ section#formulario {
     padding-top: 200px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 60px;
 }
 
 div#box_log {
     background-color: #eceff1;
-    min-width: 350px;
+    min-width: 250px;
     max-width: 500px;
     float: center;
     padding: 80px 20px 10px 20px;
@@ -87,4 +88,16 @@ div#escolha div.modal-footer .btn-flat:hover {
     background-color: var(--verde);
     color: #ffffff;
     font-weight: 900;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:380px) {
+    section#formulario {
+        padding-top: 140px;
+    }
+    div#box_log {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
 }
