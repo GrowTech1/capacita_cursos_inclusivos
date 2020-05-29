@@ -17,7 +17,7 @@
 
 section#conteudo {
     padding: 20px;
-    padding-top: 80px;
+    padding-top: 130px;
     width: 100%;
 }
 
@@ -135,12 +135,6 @@ div.cartao_box {
     section#conteudo {
         padding-left: 10px;
         padding-right: 10px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    section#conteudo {
-        padding-top: 75px;
     }
 }
 
