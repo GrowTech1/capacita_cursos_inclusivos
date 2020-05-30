@@ -154,4 +154,11 @@ div#historico div.inf_direita div.curso_detalhes {
 
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 415px) {
+    div#cabecalho div#dados p:nth-child(1) {
+        font-size: 0.9em;
+    }
+}
+
 
