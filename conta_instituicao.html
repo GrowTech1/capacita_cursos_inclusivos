@@ -31,138 +31,142 @@
             <h3>Conta da Instituição</h3>
         </div> <!-- /div#titulo -->
 
-        <ul id="menu" class="sidenav">
-            <li>
-                <div id="faixa_menu">
-                    <div>Menu</div>
-                    <div><a class="sidenav-close"><i class="material-icons">close</i></a></div>
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="index.html"><img src="img/btn_inicio.svg" alt="Botão de Acesso a Página Inicial"> <span>Início</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="acesso.html"><img src="img/btn_acesso.svg" alt="Botão de Acesso"> <span>Acesso</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="cursos.html"><img src="img/btn_cursos.svg" alt="Botão de aos Cursos"> <span>Cursos</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="forum.html"><img src="img/btn_forum.svg" alt="Botão de ao Fórum"> <span>Fórum</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="noticias.html"><img src="img/btn_noticias.svg" alt="Botão de as Notícias"> <span>Notícias</span></a> 
-                </div>
-            </li>
-        </ul> <!-- /ul.sidenav -->
+        <aside>
+            <ul id="menu" class="sidenav">
+                <li>
+                    <div id="faixa_menu">
+                        <div>Menu</div>
+                        <div><a class="sidenav-close" href="#"><i class="material-icons">close</i></a></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="index.html"><img src="img/btn_inicio.svg" alt="Botão de Acesso a Página Inicial"> <span>Início</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="acesso.html"><img src="img/btn_acesso.svg" alt="Botão de Acesso"> <span>Acesso</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="cursos.html"><img src="img/btn_cursos.svg" alt="Botão de aos Cursos"> <span>Cursos</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="forum.html"><img src="img/btn_forum.svg" alt="Botão de ao Fórum"> <span>Fórum</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="noticias.html"><img src="img/btn_noticias.svg" alt="Botão de as Notícias"> <span>Notícias</span></a> 
+                    </div>
+                </li>
+            </ul> <!-- /ul.sidenav -->
+        </aside>
         
     </header><!-- /header#id -->
 
-    <section id="conta_estudante">
-        <div id="cadastro">
-            <div  class="row">
-                <form action="#" id="formulario">
-                 
-                    <div class="col s12 m2" id="bloco_imagem">
-                        <div id="imagem_estudante">
-                            <div id="img_estudante"></div>
-                            <a href="#">Adicionar Imagem</a>
-                        </div>
-                    </div>
-
-                    <div class="col s12 m10">
-                        <div class="input-field">
-                            <input id="nome_curso" type="text" class="validate">
-                            <label for="nome_curso">Nome:</label>
-                        </div>
-                    </div>
+    <main>
+        <section id="conta_instituicao">
+            <div id="cadastro">
+                <div  class="row">
+                    <form action="#" id="formulario">
                     
-                    <div class="col s12 m10">
-                        <div class="input-field">
-                            <input id="cpf" type="text" class="validate">
-                            <label for="cpf">CPF:</label>
+                        <div class="col s12 m2" id="bloco_imagem">
+                            <div id="imagem_instituicao">
+                                <div id="img_instituicao"></div>
+                                <a href="#">Adicionar Imagem</a>
+                            </div>
                         </div>
-                    </div>
-                
-                    <div class="col s12">
-                        <div class="input-field">
-                            <input id="e_mail" type="email" class="validate">
-                            <label for="e_mail">E-mail:</label>
+
+                        <div class="col s12 m10">
+                            <div class="input-field">
+                                <input id="nome_instituicao" type="text" class="validate">
+                                <label for="nome_instituicao">Nome:</label>
+                            </div>
                         </div>
-                    </div>
-                
-                    <div class="col s12">
-                        <div class="input-field">
-                            <input id="senha" type="password" class="validate">
-                            <label for="senha">Senha:</label>
-                        </div>    
-                    </div>
+                        
+                        <div class="col s12 m10">
+                            <div class="input-field">
+                                <input id="cnpj" type="text" class="validate">
+                                <label for="cnpj">CNPJ:</label>
+                            </div>
+                        </div>
+                    
+                        <div class="col s12">
+                            <div class="input-field">
+                                <input id="e_mail" type="email" class="validate">
+                                <label for="e_mail">E-mail:</label>
+                            </div>
+                        </div>
+                    
+                        <div class="col s12">
+                            <div class="input-field">
+                                <input id="senha" type="password" class="validate">
+                                <label for="senha">Senha:</label>
+                            </div>    
+                        </div>
 
-                    <div class="col s12">
-                        <div class="input-field">
-                            <input id="repetir_senha" type="password" class="validate">
-                            <label for="repetir_senha">Repita a Senha:</label>
-                        </div>    
-                    </div>
+                        <div class="col s12">
+                            <div class="input-field">
+                                <input id="repetir_senha" type="password" class="validate">
+                                <label for="repetir_senha">Repita a Senha:</label>
+                            </div>    
+                        </div>
 
-                    <div class="col s12">
-                        <div class="input-field">
-                            <input id="endereco" type="text" class="validate">
-                            <label for="endereco">Endereço:</label>
-                        </div>    
-                    </div>
+                        <div class="col s12">
+                            <div class="input-field">
+                                <input id="endereco" type="text" class="validate">
+                                <label for="endereco">Endereço:</label>
+                            </div>    
+                        </div>
 
-                    <div class="col s4">
-                        <div class="input-field" id="num">
-                            <input id="numero" type="number" class="validate">
-                            <label for="numero">Número:</label>
-                        </div>    
-                    </div>
+                        <div class="col s4">
+                            <div class="input-field" id="num">
+                                <input id="numero" type="number" class="validate">
+                                <label for="numero">Número:</label>
+                            </div>    
+                        </div>
 
-                    <div class="col s8">
-                        <div class="input-field" id="comp">
-                            <input id="complemento" type="text" class="validate">
-                            <label for="complemento">Complemento:</label>
-                        </div>    
-                    </div>
+                        <div class="col s8">
+                            <div class="input-field" id="comp">
+                                <input id="complemento" type="text" class="validate">
+                                <label for="complemento">Complemento:</label>
+                            </div>    
+                        </div>
 
-                    <div class="col s12">
-                        <div class="input-field">
-                            <input id="bairro" type="text" class="validate">
-                            <label for="bairro">Bairro:</label>
-                        </div>    
-                    </div>
+                        <div class="col s12">
+                            <div class="input-field">
+                                <input id="bairro" type="text" class="validate">
+                                <label for="bairro">Bairro:</label>
+                            </div>    
+                        </div>
+        
+                        <div class="col s12">
+                            <div class="input-field">
+                                <input id="cep" type="text" class="validate">
+                                <label for="cep">CEP:</label>
+                            </div>    
+                        </div>
     
-                    <div class="col s12">
-                        <div class="input-field">
-                            <input id="cep" type="text" class="validate">
-                            <label for="cep">CEP:</label>
-                        </div>    
-                    </div>
-  
-                </form> <!-- /form#formularios -->
-            </div> <!-- /row -->
+                    </form> <!-- /form#formularios -->
+                </div> <!-- /row -->
 
-            <div id="botoes">
-                <div class="botao_confirmar botao">
-                    <a href="geren_instituicao.html"><i class="medium material-icons">check</i></a>
+                <div id="botoes">
+                    <div class="botao_confirmar botao">
+                        <a href="geren_instituicao.html"><i class="medium material-icons">check</i></a>
+                    </div>
+                    <div class="botao_cancelar botao">
+                        <a href="index.html"><i class="medium material-icons">close</i></a>
+                    </div>
                 </div>
-                <div class="botao_cancelar botao">
-                    <a href="index.html"><i class="medium material-icons">close</i></a>
-                </div>
-            </div>
-            
-        </div> <!-- /div#bloco_cadastro -->
-    </section> <!-- section#lanc_cursos -->
+                
+            </div> <!-- /div#bloco_cadastro -->
+        </section> <!-- section#lanc_cursos -->
+    </main>
 
     <footer id="rodape">
         <div id="box_inferior">

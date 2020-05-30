@@ -18,28 +18,28 @@ header h3 {
     padding-top: 4px;
 }
 
-section#conta_estudante {
+section#conta_instituicao {
     padding: 5%;
     padding-top: 120px;
     padding-bottom: 120px;
     margin: auto;
 }
 
-section#conta_estudante div#cadastro {
+section#conta_instituicao div#cadastro {
     margin: auto;
     max-width: 1000px;
-    min-width: 300px;
+    min-width: 280px;
 }
 
 /* BLOCO DA IMAGEM */
-div#cadastro div#imagem_estudante {
+div#cadastro div#imagem_instituicao {
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-div#cadastro div#img_estudante {
+div#cadastro div#img_instituicao {
     background-image: url("../img/logo_curso_02.jpg");
     background-size: 100%;
     height: 120px;
@@ -48,16 +48,14 @@ div#cadastro div#img_estudante {
 }
 
 /* BLOCO DO FORMULARIO */
-section#conta_estudante form#formulario {
+section#conta_instituicao form#formulario {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-section#conta_estudante div#cadastro .input-field {
+section#conta_instituicao div#cadastro .input-field {
     margin: 15px auto;
     width: 100%;
-    /* min-width: 300px;
-    max-width: 800px; */
 }
 
 form#formulario div {
@@ -66,7 +64,7 @@ form#formulario div {
 }
 
 /* BLOCOS DE OPÇÕES */
-section#conta_estudante div.bloco {
+section#conta_instituicao div.bloco {
     display: flex;
     align-content: center;
     position: relative;
@@ -81,20 +79,20 @@ section#conta_estudante div.bloco {
 
 }
 
-section#conta_estudante div.bloco p  {
+section#conta_instituicao div.bloco p  {
     padding-left: 15px;
 }
 
-section#conta_estudante div.bloco p label span {
+section#conta_instituicao div.bloco p label span {
     width: 80px;
 }
 
-section#conta_estudante div.bloco p label span {
+section#conta_instituicao div.bloco p label span {
     padding-left: 25px;
     padding-right: 20px;
 }
 
-section#conta_estudante div.titulo {
+section#conta_instituicao div.titulo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,12 +193,12 @@ box-shadow: 0 1px 0 0 var(--azul)!important;
 }
 
 /* BOTÕES DE CONFIRMAÇÃO */
-section#conta_estudante div#botoes {
+section#conta_instituicao div#botoes {
     display: flex;
     justify-content: center;
 }
 
-section#conta_estudante .botao a {
+section#conta_instituicao .botao a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,19 +209,20 @@ section#conta_estudante .botao a {
     margin: 10px;
 }
 
-section#conta_estudante div.botao:nth-child(1) i{
+section#conta_instituicao div.botao:nth-child(1) i{
     color: rgba(12, 139, 12, 0.3);
 }
 
-section#conta_estudante div.botao:nth-child(2) i{
+section#conta_instituicao div.botao:nth-child(2) i{
     color: rgba(255, 51, 0, 0.3);
 }
 
-section#conta_estudante div.botao:nth-child(1) i:hover{
+section#conta_instituicao div.botao:nth-child(1) i:hover{
     color: rgba(12, 139, 12, 0.8);
 }
 
-section#conta_estudante div.botao:nth-child(2) i:hover{
+section#conta_instituicao div.botao:nth-child(2) i:hover{
     color: rgba(255, 51, 0, 0.8);
 }
+
 
