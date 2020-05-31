@@ -76,3 +76,20 @@ section#conteudo_geren_insc div.botao a:hover{
     font-weight: 900;
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 325px) {
+    section#conteudo_geren_insc div.box_inscricoes {
+        min-width: 280px;
+        font-size: 0.9em;
+        
+    }
+
+    section#conteudo_geren_insc div.botao {
+        width: 80px;
+        height: 20px;
+    }
+   
+    section#conteudo_geren_insc div.cabeca {
+        padding-top: 10px;
+    }
+}
