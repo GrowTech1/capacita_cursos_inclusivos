@@ -52,7 +52,7 @@ section#lanc_curso form#formularios {
 
 section#lanc_curso div#bloco_cadastro .input-field {
     margin: 15px auto;
-    min-width: 300px;
+    min-width: 250px;
     max-width: 800px;
 }
 
@@ -159,3 +159,18 @@ section#lanc_curso div.botao:nth-child(2) i:hover{
     color: rgba(255, 51, 0, 0.8);
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 400px) {
+    section#lanc_curso div#bloco_cadastro {
+        margin: 0 7%;
+    }
+
+    header h3 {
+        font-size: 1.1em;
+    }
+
+    section#lanc_curso div.bloco {
+        width: 280px;
+        padding-left: 5px;
+    }
+}
