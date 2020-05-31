@@ -148,3 +148,54 @@ section#conteudo_forum div.direita_r p {
     font-size: 0.7em;
 }
 
+@media screen and (max-width: 400px ) {
+    /* PERGUNTAS */
+    section#conteudo_forum div.box_pergunta{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        
+    }  
+
+    section#conteudo_forum div.box_pergunta{ 
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    section#conteudo_forum div.direita_p {
+        padding-top: 20px;
+    }
+
+    section#conteudo_forum div.direita_p p,
+    section#conteudo_forum div.direita_p h4 {
+        text-align: center;
+    }
+
+    section#conteudo_forum div.direita_p {
+        text-align: center;
+    }
+
+    /* RESPOSTAS */
+    section#conteudo_forum div.box_resposta{
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        align-items: center;
+    }
+
+    section#conteudo_forum div.box_resposta{ 
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    section#conteudo_forum div.esquerda_r {
+        padding-top: 20px;
+    }
+
+    section#conteudo_forum div.esquerda_r p,
+    section#conteudo_forum div.esquerda_r h4 {
+        text-align: center;
+    }
+}
+
+
+
