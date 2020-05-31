@@ -31,130 +31,134 @@
             <h3>CURSOS </h3>
         </div> <!-- /div#titulo -->
 
-        <ul id="menu" class="sidenav">
-            <li>
-                <div id="faixa_menu">
-                    <div>Menu</div>
-                    <div><a class="sidenav-close"><i class="material-icons">close</i></a></div>
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="index.html"><img src="img/btn_inicio.svg" alt="Botão de Acesso a Página Inicial"> <span>Início</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="acesso.html"><img src="img/btn_acesso.svg" alt="Botão de Acesso"> <span>Acesso</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="cursos.html"><img src="img/btn_cursos.svg" alt="Botão de aos Cursos"> <span>Cursos</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="forum.html"><img src="img/btn_forum.svg" alt="Botão de ao Fórum"> <span>Fórum</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="noticias.html"><img src="img/btn_noticias.svg" alt="Botão de as Notícias"> <span>Notícias</span></a> 
-                </div>
-            </li>
-        </ul> <!-- /ul.sidenav -->
+        <aside>
+            <ul id="menu" class="sidenav">
+                <li>
+                    <div id="faixa_menu">
+                        <div>Menu</div>
+                        <div><a class="sidenav-close" href="#"><i class="material-icons">close</i></a></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="index.html"><img src="img/btn_inicio.svg" alt="Botão de Acesso a Página Inicial"> <span>Início</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="acesso.html"><img src="img/btn_acesso.svg" alt="Botão de Acesso"> <span>Acesso</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="cursos.html"><img src="img/btn_cursos.svg" alt="Botão de aos Cursos"> <span>Cursos</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="forum.html"><img src="img/btn_forum.svg" alt="Botão de ao Fórum"> <span>Fórum</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="noticias.html"><img src="img/btn_noticias.svg" alt="Botão de as Notícias"> <span>Notícias</span></a> 
+                    </div>
+                </li>
+            </ul> <!-- /ul.sidenav -->
+        </aside>
         
     </header><!-- /header#id -->
 
-    <section id="infoCursos">
-        <img src="img/curso_01.jpg" class="circle responsive-img displayed">   
-        <h4>Informática Básica</h4> <br />
-        <div id="bt">
-            <a href="meus_cursos.html" class="waves-effect waves-light btn-small" id="bt1">Inscreva-se</a>
-        </div> <!-- /#bt --> <br />
- 
-        <article id="textoCurso">
-            <div id="texto">
-                <p>Conhecimento básico de como utilizar um computador é fundamental.
-                A informatização está presente em praticamente todos os setores da vida moderna.
-                Com este curso de informática básica você terá acesso aos principais conhecimentos
-                da informática.</p>
-            </div> <!-- /#texto --> <br />
-            <div class="horario">
-                <br>
-                <p>Carga Horária: 80hs</p> <br>
-                <p>Horário: 8hs às 10hs</p> <br>
-                <br>
-            </div> <!-- /#horario -->
-            <div class="info" id="diaSemana">
-                <div id="bannerDiaSemana">
-                    <p>
-                        <span>Dias:</span>
-                    </p>
-                </div>
-                <form action="#" class="semana" id="diaSemana">
+    <main>
+        <section id="infoCursos">
+            <img src="img/curso_01.jpg" class="circle responsive-img displayed">   
+            <h4>Informática Básica</h4> <br />
+            <div id="bt">
+                <a href="meus_cursos.html" class="waves-effect waves-light btn-small" id="bt1">Inscreva-se</a>
+            </div> <!-- /#bt --> <br />
+    
+            <article id="textoCurso">
+                <div id="texto">
+                    <p>Conhecimento básico de como utilizar um computador é fundamental.
+                    A informatização está presente em praticamente todos os setores da vida moderna.
+                    Com este curso de informática básica você terá acesso aos principais conhecimentos
+                    da informática.</p>
+                </div> <!-- /#texto --> <br />
+                <div class="horario">
+                    <br>
+                    <p>Carga Horária: 80hs</p> <br>
+                    <p>Horário: 8hs às 10hs</p> <br>
+                    <br>
+                </div> <!-- /#horario -->
+            </article> <!-- /#tectoCurso -->
+
+            <div class="bloco"> 
+                <div class="titulo">Dias</div>
                     <p>
                         <label>
-                            <input type="checkbox" class="filled-in" name="dsemana" value="seg" id="segunda"/>
+                            <input type="checkbox" class="filled-in" checked disabled/>
                             <span>Seg</span>
                         </label>
+
                         <label>
-                            <input type="checkbox" class="filled-in" name="dsemana" value="ter" id="terca"/>
+                            <input type="checkbox" class="filled-in" disabled/>
                             <span>Ter</span>
                         </label>
+
                         <label>
-                            <input type="checkbox" class="filled-in" name="dsemana" value="qua" id="quarta"/>
+                            <input type="checkbox" class="filled-in" checked disabled/>
                             <span>Qua</span>
-                        </label> <br>
+                        </label>
+
                         <label>
-                            <input type="checkbox" class="filled-in" name="dsemana" value="qui" id="quinta"/>
+                            <input type="checkbox" class="filled-in" disabled="disabled"/>
                             <span>Qui</span>
                         </label>
+
                         <label>
-                            <input type="checkbox" class="filled-in" name="dsemana" value="sex" id="sexta"/>
+                            <input type="checkbox" class="filled-in" disabled/>
                             <span>Sex</span>
                         </label>
+
                         <label>
-                            <input type="checkbox" class="filled-in" name="dsemana" value="sab" id="sabado"/>
+                            <input type="checkbox" class="filled-in" disabled/>
                             <span>Sab</span>
                         </label>
                     </p>
-                </form>
-            </div> <br/>
-            <div class="info" id="deficiencia">
-                <div id="bannerDeficiencia">
-                    <p>
-                        <span>Portador tipo:</span>
-                    </p>
-                </div>
-                <form action="#" class="deficiencia" id="tipoDeficiencia">
-                    <p>
-                        <label>
-                          <input type="checkbox" class="filled-in" name="tDeficiencia" value="autidivo" id="auditivo"/>
-                          <span>Auditivo</span>
-                        </label>
-                        <label>
-                          <input type="checkbox" class="filled-in" name="tDeficiencia" value="fisico" id="fisico"/>
-                          <span>Físico</span>
-                        </label>
-                        <label>
-                          <input type="checkbox" class="filled-in" name="tDeficiencia" value="mudez" id="mudez"/>
-                          <span>Mudez</span>
-                        </label> <br />
-                        <label>
-                          <input type="checkbox" class="filled-in" name="tDeficiencia" value="mental" id="mental"/>
-                          <span>Mental</span>
-                        </label>
-                        <label>
-                          <input type="checkbox" class="filled-in" name="tDeficiencia" value="visual" id="visual"/>
-                          <span>Visual</span>
-                        </label>
-                      </p>
-                </form>
-            </div>
-        </article> <!-- /#tectoCurso -->
-    </section> <!-- /.infoCursos -->
+            </div> <!-- ./bloco checkbox dias -->
+
+            <div class="bloco">
+                <div class="titulo">Portador Tipo</div>
+                <p>
+                    <label>
+                        <input type="checkbox" class="filled-in" disabled/>
+                        <span>Auditivo</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox"  class="filled-in" checked disabled/>
+                        <span>Físico</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" class="filled-in" checked disabled/>
+                        <span>Mudez</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" class="filled-in" disabled/>
+                        <span>Mental</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" class="filled-in" checked disabled/>
+                        <span>Visual</span>
+                    </label>
+                </p>
+            </div> <!-- ./bloco checkbox portador tipo -->
+
+        </section> <!-- /.infoCursos -->
+    </main>
 
     <footer id="rodape">
         <div id="box_inferior">

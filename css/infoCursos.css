@@ -10,6 +10,8 @@
     --verde:          #00A1C1;
     --laranja:        #F7AE60;
     --roxo:           #8B7BB7;
+    --roxo10:         rgba(139, 123, 183, 0.1);
+    --roxo30:         rgba(139, 123, 183, 0.3);
     --roxo50:         rgba(139, 123, 183, 0.5);
     --cinza:          #F1F9FA;
 }
@@ -40,7 +42,15 @@ div#bt {
 a#bt1 {
     border-radius: 25px;
     background-color: #f7ae60;
+    padding-top: 2px;
+    width: 140px;
 }
+
+a#bt1:hover {
+    font-weight: 900;
+}
+
+
 
 article#textoCurso {
     display: inline-block;
@@ -52,7 +62,7 @@ article#textoCurso {
 article#textoCurso div#texto {
     display: inline-block;
     text-align: center;
-    min-width: 300px;
+    min-width: 250px;
     max-width: 500px
 
 }
@@ -74,7 +84,6 @@ article#textoCurso div.info {
     width: 300px;
 }
 
-
 article#textoCurso div.info input {
     text-align: center;
 }
@@ -83,38 +92,74 @@ article#textoCurso form span {
     margin: 8px 3px 3px 3px;
 }
 
-div#diaSemana {
+/* BLOCOS DE OPÇÕES */
+section#infoCursos div.bloco {
+    display: flex;
+    align-content: center;
     position: relative;
-    text-align: left;
+    background-color: var(--roxo30);
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 20px auto ;
+    padding: 10px 20px;
+    padding-top: 15px;
+    padding-right: 0;
+
 }
-div#bannerDiaSemana {
-    background-color: #8B7BB7;
-    width: 120px;
-    padding: 5px;
-    border-radius: 25px;
+
+section#infoCursos div.bloco p  {
+    padding-left: 15px;
+}
+
+section#infoCursos div.bloco p label span {
+    width: 80px;
+}
+
+section#infoCursos div.bloco p label span {
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+section#infoCursos div.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     top: -10px;
-    left: 30px;
-}
-
-div#deficiencia {
-    position: relative; 
-}
-
-div#bannerDeficiencia {
-    background-color: #8B7BB7;
-    width: 120px;
-    padding: 5px;
-    border-radius: 25px;
-    position: absolute;
-    top: -10px;
-    left: 30px;
-
-}
-
-div.info div p span {
+    left: 20px;
+    background-color: var(--roxo);
+    width: 75px;
+    height: 20px;
+    border-radius: 20px;
     color: #ffffff;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+/* manipulação dos formulários materialize */
+
+[type="checkbox"][disabled].filled-in:disabled+span:not(.lever):after {
+    background-color: transparent;
+    border: 2px solid #5a5a5a;
+} 
+
+[type="checkbox"].filled-in:disabled:checked+span:not(.lever):after {
+    border: 2px solid var(--roxo30);
+    background-color: var(--roxo);
 }
 
 
-
+/* MEDIA QUERIES */
+@media screen and (max-width: 400px) {
+    section#infoCursos img {
+        width: 150px;
+    }
+    section#infoCursos h4 {
+        font-size: 1.8em;
+    }
+    section#infoCursos div.bloco {
+        width: 280px;
+        padding-left: 5px;
+    }
+}
