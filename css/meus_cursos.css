@@ -46,9 +46,7 @@ div#cabecalho_direita {
     margin: 5px;
 }
 
-
 div#foto {
-
     background-image: url("../img/foto_usuario.jpg");
     background-position: center;
     background-size: 100%;
@@ -67,13 +65,19 @@ div#dados {
     padding: 10px 20px;
 }
 
+div#dados p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
 div#cabecalho div#dados p:nth-child(1) {
     font-weight: 900;
 }
 
 div#historico {
     text-align: center;
-    min-width: 27em;
+    min-width: 270px;
     max-width: 70em;
 }
 
@@ -155,9 +159,9 @@ div#historico div.inf_direita div.curso_detalhes {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 415px) {
-    div#cabecalho div#dados p:nth-child(1) {
-        font-size: 0.9em;
+@media screen and (max-width: 359px) {
+    div#historico div.inf_direita, div#cabecalho_direita {
+        width: 80%;
     }
 }
 
