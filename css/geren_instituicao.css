@@ -18,7 +18,8 @@ section#conteudo_instituicao {
     padding: 20px;
     padding-top: 150px;
     padding-bottom: 100px ;
-    width: 380px;
+    min-width: 300px;
+    max-width: 380px;
     margin: auto;
     
 }
@@ -104,4 +105,45 @@ section#conteudo_instituicao div.box_itens div.nome a{
 
 section#conteudo_instituicao div.box_itens div.nome a:hover{
     color: var(--azul-escuro70);
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 380px) {
+    section#conteudo_instituicao {
+        width: 320px;    
+    }
+    section#conteudo_instituicao div.box_instituicao div.logo_inst{
+        width: 80px;
+        height: 80px;
+    }
+
+    section#conteudo_instituicao div.box_itens div.icone {
+        width: 52px;
+        height: 52px;
+    }
+
+    section#conteudo_instituicao div.box_itens:nth-child(2) img {
+        width: 30px;
+    }
+    
+    section#conteudo_instituicao div.box_itens:nth-child(3) img {
+        width: 25px;
+    }
+
+    section#conteudo_instituicao div.box_instituicao .nome_inst {
+        width: 175px;
+        height: 45px;
+        font-weight: 900;
+        font-size: 1.2em;
+    }
+
+    section#conteudo_instituicao div.box_itens div.nome {
+        width: 110px;
+        height: 30px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 1em;
+    }
+
+
 }
