@@ -31,162 +31,165 @@
             <h3>Instituição - Lançamento de Cursos</h3>
         </div> <!-- /div#titulo -->
 
-        <ul id="menu" class="sidenav">
-            <li>
-                <div id="faixa_menu">
-                    <div>Menu</div>
-                    <div><a class="sidenav-close"><i class="material-icons">close</i></a></div>
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="index.html"><img src="img/btn_inicio.svg" alt="Botão de Acesso a Página Inicial"> <span>Início</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="acesso.html"><img src="img/btn_acesso.svg" alt="Botão de Acesso"> <span>Acesso</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="cursos.html"><img src="img/btn_cursos.svg" alt="Botão de aos Cursos"> <span>Cursos</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="forum.html"><img src="img/btn_forum.svg" alt="Botão de ao Fórum"> <span>Fórum</span></a> 
-                </div>
-            </li>
-            <li>
-                <div class="opcoes">
-                   <a href="noticias.html"><img src="img/btn_noticias.svg" alt="Botão de as Notícias"> <span>Notícias</span></a> 
-                </div>
-            </li>
-        </ul> <!-- /ul.sidenav -->
+        <aside>
+            <ul id="menu" class="sidenav">
+                <li>
+                    <div id="faixa_menu">
+                        <div>Menu</div>
+                        <div><a class="sidenav-close" href="#"><i class="material-icons">close</i></a></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="index.html"><img src="img/btn_inicio.svg" alt="Botão de Acesso a Página Inicial"> <span>Início</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="acesso.html"><img src="img/btn_acesso.svg" alt="Botão de Acesso"> <span>Acesso</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="cursos.html"><img src="img/btn_cursos.svg" alt="Botão de aos Cursos"> <span>Cursos</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="forum.html"><img src="img/btn_forum.svg" alt="Botão de ao Fórum"> <span>Fórum</span></a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="opcoes">
+                    <a href="noticias.html"><img src="img/btn_noticias.svg" alt="Botão de as Notícias"> <span>Notícias</span></a> 
+                    </div>
+                </li>
+            </ul> <!-- /ul.sidenav -->
+        </aside>
         
     </header><!-- /header#id -->
 
-    <section id="lanc_curso">
+    <main>
+        <section id="lanc_curso">
 
-        <div id="bloco_cadastro">
-            <div id="bloco_imagem_curso">
-                <div id="img_curso"></div>
-                <a href="#">Adicionar Imagem</a>
-            </div>
-
-            <form action="#" id="formularios">
-                <div class="input-field">
-                    <input id="nome_curso" type="text" class="validate">
-                    <label for="nome_curso">Nome do Curso: </label>
-                </div>
-    
-                <div class="input-field">
-                    <input id="carga_horaria" type="text" class="validate">
-                    <label for="carga_horaria">Carga Horária: </label>
-                </div>
-    
-                <div class="input-field">
-                    <input id="horario_inicial" type="text" class="timepicker">
-                    <label for="horario_inicial">Horário Inicial da Aula: </label>
-                </div>
-    
-                <div class="input-field">
-                    <input id="horario_final" type="text" class="timepicker">
-                    <label for="horario_final">Horário de Término da Aula: </label>
+            <div id="bloco_cadastro">
+                <div id="bloco_imagem_curso">
+                    <div id="img_curso"></div>
+                    <a href="#">Adicionar Imagem</a>
                 </div>
 
-                <div class="input-field">
-                    <input id="data_inicial" type="text" class="datepicker">
-                    <label for="data_inicial">Data de Início: </label>
-                </div>
+                <form action="#" id="formularios">
+                    <div class="input-field">
+                        <input id="nome_curso" type="text" class="validate">
+                        <label for="nome_curso">Nome do Curso: </label>
+                    </div>
+        
+                    <div class="input-field">
+                        <input id="carga_horaria" type="text" class="validate">
+                        <label for="carga_horaria">Carga Horária: </label>
+                    </div>
+        
+                    <div class="input-field">
+                        <input id="horario_inicial" type="text" class="timepicker">
+                        <label for="horario_inicial">Horário Inicial da Aula: </label>
+                    </div>
+        
+                    <div class="input-field">
+                        <input id="horario_final" type="text" class="timepicker">
+                        <label for="horario_final">Horário de Término da Aula: </label>
+                    </div>
 
-                <div class="input-field">
-                    <input id="data_final" type="text" class="datepicker">
-                    <label for="data_final">Data de Término: </label>
-                </div>
-            </form> <!-- /form#formularios -->
+                    <div class="input-field">
+                        <input id="data_inicial" type="text" class="datepicker">
+                        <label for="data_inicial">Data de Início: </label>
+                    </div>
 
-            <div class="bloco">
-                <div class="titulo">Dias</div>
+                    <div class="input-field">
+                        <input id="data_final" type="text" class="datepicker">
+                        <label for="data_final">Data de Término: </label>
+                    </div>
+                </form> <!-- /form#formularios -->
+
+                <div class="bloco">
+                    <div class="titulo">Dias</div>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in"/>
+                                <span>Seg</span>
+                            </label>
+
+                            <label>
+                                <input type="checkbox" class="filled-in"/>
+                                <span>Ter</span>
+                            </label>
+
+                            <label>
+                                <input type="checkbox" class="filled-in"/>
+                                <span>Qua</span>
+                            </label>
+
+                            <label>
+                                <input type="checkbox" class="filled-in"/>
+                                <span>Qui</span>
+                            </label>
+
+                            <label>
+                                <input type="checkbox" class="filled-in"/>
+                                <span>Sex</span>
+                            </label>
+
+                            <label>
+                                <input type="checkbox" class="filled-in"/>
+                                <span>Sab</span>
+                            </label>
+                        </p>
+                </div>
+                <div class="bloco">
+                    <div class="titulo">Portador Tipo</div>
+
                     <p>
                         <label>
                             <input type="checkbox" class="filled-in"/>
-                            <span>Seg</span>
+                            <span>Auditivo</span>
                         </label>
 
                         <label>
                             <input type="checkbox" class="filled-in"/>
-                            <span>Ter</span>
+                            <span>Físico</span>
                         </label>
 
                         <label>
                             <input type="checkbox" class="filled-in"/>
-                            <span>Qua</span>
+                            <span>Mudez</span>
                         </label>
 
                         <label>
                             <input type="checkbox" class="filled-in"/>
-                            <span>Qui</span>
+                            <span>Mental</span>
                         </label>
 
                         <label>
                             <input type="checkbox" class="filled-in"/>
-                            <span>Sex</span>
+                            <span>Visual</span>
                         </label>
 
-                        <label>
-                            <input type="checkbox" class="filled-in"/>
-                            <span>Sab</span>
-                        </label>
                     </p>
-            </div>
-            <div class="bloco">
-                <div class="titulo">Portador Tipo</div>
 
-                <p>
-                    <label>
-                        <input type="checkbox" class="filled-in"/>
-                        <span>Auditivo</span>
-                    </label>
-
-                    <label>
-                        <input type="checkbox" class="filled-in"/>
-                        <span>Físico</span>
-                    </label>
-
-                    <label>
-                        <input type="checkbox" class="filled-in"/>
-                        <span>Mudez</span>
-                    </label>
-
-                    <label>
-                        <input type="checkbox" class="filled-in"/>
-                        <span>Mental</span>
-                    </label>
-
-                    <label>
-                        <input type="checkbox" class="filled-in"/>
-                        <span>Visual</span>
-                    </label>
-
-                </p>
-
-            </div>
-
-            <div id="botoes">
-                <div class="botao_confirmar botao">
-                    <a href="geren_instituicao.html"><i class="medium material-icons">check</i></a>
                 </div>
-                <div class="botao_cancelar botao">
-                    <a href="index.html"><i class="medium material-icons">close</i></a>
+
+                <div id="botoes">
+                    <div class="botao_confirmar botao">
+                        <a href="geren_instituicao.html"><i class="medium material-icons">check</i></a>
+                    </div>
+                    <div class="botao_cancelar botao">
+                        <a href="index.html"><i class="medium material-icons">close</i></a>
+                    </div>
                 </div>
-            </div>
-            
+    
+            </div> <!-- /div#bloco_cadastro -->
 
-        </div> <!-- /div#bloco_cadastro -->
-
-    </section> <!-- section#lanc_cursos -->
+        </section> <!-- section#lanc_cursos -->
+    </main>
 
     <footer id="rodape">
         <div id="box_inferior">
