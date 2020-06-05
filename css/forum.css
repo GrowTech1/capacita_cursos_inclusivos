@@ -15,9 +15,57 @@
     --cinza:          #F1F9FA;
 }
 
+/* BARRA DE PESQUISA */
+header div#box_pesquisa{
+    background-color: var(--roxo20);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    right: 0px;
+    top: 120px;
+}
+
+header div#box_pesquisa input {
+    background-color: #ffffff;
+    height: 70%;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 10px;  
+    margin: 8px;
+    border-bottom: 0px solid;
+}
+
+div#box_base {
+    height: 100%;
+    text-align: center;
+}
+
+div#box_base div:nth-child(1) {
+    height: 50px;
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#box_base div:nth-child(2) {
+    height: 50px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#box_base div i{
+    color: var(--roxo);
+}
+
+div#box_base div i:hover{
+    color: var(--roxo50);
+}
+
+/* FORUM */
 section#conteudo_forum {
     padding: 10px;
-    padding-top: 120px ;
+    padding-top: 170px ;
     padding-bottom: 80px;
 }
 
@@ -98,7 +146,6 @@ section#conteudo_forum div.box_pergunta div.botao a:hover {
     font-weight: 900;
 }
 
-
 /* RESPOSTAS */
 section#conteudo_forum div.box_resposta{
     display: flex;
@@ -148,7 +195,31 @@ section#conteudo_forum div.direita_r p {
     font-size: 0.7em;
 }
 
+/* PAGINAÇÃO */
+section#conteudo_forum ul.pagination {
+        text-align: center;
+}
+
+.pagination li.active {
+    background-color: var(--verde);
+}
+
+.pagination li a {
+    color: var(--azul-escuro);
+}
+
 @media screen and (max-width: 400px ) {
+    /* PESQUISA */
+    /* section#conteudo_forum {
+        padding-top: 200px ;
+    } */
+    header div#box_pesquisa input{
+        font-size: 1em;
+    }
+    div#box_base div:nth-child(1) {
+        width: 70%;
+    }
+
     /* PERGUNTAS */
     section#conteudo_forum div.box_pergunta{
         display: flex;
