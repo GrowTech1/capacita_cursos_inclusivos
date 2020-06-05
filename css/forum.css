@@ -196,7 +196,7 @@ section#conteudo_forum div.direita_r p {
 }
 
 /* PAGINAÇÃO */
-section#conteudo_forum ul.pagination {
+ul.pagination {
         text-align: center;
 }
 

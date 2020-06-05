@@ -18,6 +18,10 @@ header div#box_pesquisa{
     top: 120px;
 }
 
+div#box_base div i:hover{
+    color: var(--roxo50);
+}
+
 header div#box_pesquisa input {
     background-color: #ffffff;
     height: 70%;
@@ -142,6 +146,19 @@ div.cartao_curso div.direita p:nth-child(5) a {
 
 div.cartao_curso div.direita p:nth-child(5) a:hover {
     color: var(--roxo70);
+}
+
+/* PAGINAÇÃO */
+ul.pagination {
+    text-align: center;
+}
+
+.pagination li.active {
+background-color: var(--verde);
+}
+
+.pagination li a {
+color: var(--azul-escuro);
 }
 
 /* MEDIA QUERIES */

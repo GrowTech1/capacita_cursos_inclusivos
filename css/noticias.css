@@ -50,7 +50,9 @@ div#box_base div:nth-child(2) {
 div#box_base div i{
     color: var(--roxo);
 }
-
+div#box_base div i:hover{
+    color: var(--roxo50);
+}
 
 /* SECTION#CONTEUDO */
 section#conteudo {
@@ -146,6 +148,19 @@ div.cartao_noticia div.direita p:nth-child(4) a {
 
 div.cartao_noticia div.direita p:nth-child(4) a:hover {
     color: var(--roxo70);
+}
+
+/* PAGINAÇÃO */
+ul.pagination {
+    text-align: center;
+}
+
+.pagination li.active {
+background-color: var(--verde);
+}
+
+.pagination li a {
+color: var(--azul-escuro);
 }
 
 @media screen and (max-width: 370px ){
